@@ -9,8 +9,5 @@ describe("MyCryptoLions", function () {
 
         expect(await MyCryptoLions.name()).to.equal("MyCryptoLions");
         expect(await MyCryptoLions.symbol()).to.equal("MCL");
-    });
-    it("", async function() {
-        MyCryptoLions.createCollectible("")
-    });
+    })
 });
